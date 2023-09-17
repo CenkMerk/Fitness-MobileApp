@@ -9,7 +9,7 @@ This Flutter project is a fitness application that allows users to search for ex
 - http package
 - [RapidAPI](https://rapidapi.com/justin-WFnsXH_t6/api/exercisedb) 
 
-![Resim Açıklaması](./screenshot/1.png)
+![Resim Açıklaması](./screenshot/home.png)
 ![Resim Açıklaması](./screenshot/2.png)
 ![Resim Açıklaması](./screenshot/3.png)
 ![Resim Açıklaması](./screenshot/4.png)
