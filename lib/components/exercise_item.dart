@@ -14,8 +14,9 @@ InkWell exerciseItem(ExercisesModel exercise, BuildContext context) {
     },
     child: Card(
       child: Column(children: [
+        //name
         Padding(
-          padding: EdgeInsets.all(5.0),
+          padding: const EdgeInsets.all(5.0),
           child: Text(
             "${exercise.name}",
             style: const TextStyle(
@@ -28,12 +29,14 @@ InkWell exerciseItem(ExercisesModel exercise, BuildContext context) {
         Row(
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
+            //image
             Image.network(
               "${exercise.gifUrl}",
               width: 200,
               height: 200,
               fit: BoxFit.cover,
             ),
+            //info
             Padding(
               padding: const EdgeInsets.only(right: 10.0),
               child: Column(

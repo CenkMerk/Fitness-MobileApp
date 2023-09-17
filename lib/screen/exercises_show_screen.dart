@@ -18,14 +18,16 @@ class ExercisesShowScreen extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: SafeArea(
         child: Scaffold(
+          //appbar
           appBar: CustomAppBar(
             title: 'Back',
             onBackButtonPressed: () {
               Navigator.pop(context);
             },
           ),
+          //body
           body: Padding(
-            padding: EdgeInsets.all(10.0),
+            padding: const EdgeInsets.all(10.0),
             child: FutureBuilder(
               future: exercisesService.fetchExercises(value, isSearch),
               builder: (context, snapshot) {

@@ -12,16 +12,19 @@ class ExerciseDetailScreen extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       home: SafeArea(
         child: Scaffold(
+          //appbar
           appBar: CustomAppBar(
             title: 'Back',
             onBackButtonPressed: () {
               Navigator.pop(context);
             },
           ),
+          //body
           body: SizedBox(
             width: MediaQuery.of(context).size.width,
             child: Column(
               children: [
+                //name
                 Padding(
                   padding: EdgeInsets.all(5.0),
                   child: Text(
@@ -36,12 +39,14 @@ class ExerciseDetailScreen extends StatelessWidget {
                 const SizedBox(
                   height: 10.0,
                 ),
+                //image
                 Image.network(
                   "${exercise.gifUrl}",
                   width: 300,
                   height: 300,
                   fit: BoxFit.cover,
                 ),
+                //description
                 Padding(
                   padding: const EdgeInsets.all(10.0),
                   child: Text(
@@ -51,6 +56,7 @@ class ExerciseDetailScreen extends StatelessWidget {
                 const SizedBox(
                   height: 20.0,
                 ),
+                //icons
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                   children: [
