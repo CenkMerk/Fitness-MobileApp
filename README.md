@@ -1,16 +1,34 @@
-# fitness_app
+# 💪Fitness MobileApp
 
-A new Flutter project.
+This Flutter project is a fitness application that allows users to search for exercises, apply filters, and view exercise details, including GIFs and descriptions.
 
-## Getting Started
+## 🚀 Technologies Used
 
-This project is a starting point for a Flutter application.
+- Flutter
+- Dart
+- http package
+- [RapidAPI](https://rapidapi.com/justin-WFnsXH_t6/api/exercisedb) 
 
-A few resources to get you started if this is your first Flutter project:
+## ⭐ Features
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+This app can do the following:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **Exercise Search:** Users can search for exercises by name.
+- **Exercise Filtering:** Users can filter exercises by category.
+- **Exercise Details:** Each exercise comes with a description and a relevant GIF.
+
+## 🏃 How to Run
+
+1. Clone this repository: `git clone https://github.com/CenkMerk/Fitness-MobileApp.git`
+2. Navigate to the project directory: `cd fitness-app`
+3. Install the required dependencies: `flutter pub get`
+4. To launch the app: `flutter run`
+
+
+## 🤝  Contribution
+
+If you'd like to contribute, please fork the repository and open a pull request. I'm open to fixes, features, and improvements anytime.
+
+
+
+
